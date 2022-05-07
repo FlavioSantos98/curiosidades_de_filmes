@@ -1,0 +1,148 @@
+@import url('http://fonts.cdnfonts.com/css/fakt-pro');
+
+.img1 {
+    background-image: url(https://i0.wp.com/filmestorrentdownloads.com.br/wp-content/uploads/2021/10/interstellar-wallpaper-scaled.jpg?resize=2560%2C1600&ssl=1);
+    min-height: 100%;
+}
+
+.img2 {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/100/136/984/movies-django-unchained-leonardo-dicaprio-wallpaper-preview.jpg);
+    min-height: 400px;
+}
+
+.img3 {
+    background-image: url(https://www.planocritico.com/wp-content/uploads/2014/12/The-Godfather-o-poderoso-chef%C3%A3o-plano-cr%C3%ADtico.jpg);
+    min-height: 400px;
+}
+
+.img4 {
+    background-image: url(https://images7.alphacoders.com/399/399259.jpg);
+    min-height: 400px;
+}
+
+.img5 {
+    background-image: url(https://claudia.abril.com.br/wp-content/uploads/2019/02/uma-linda-mulher.jpg);
+    min-height: 400px;
+}
+
+.img6 {
+    background-image: url(https://images6.alphacoders.com/949/949005.jpg);
+    min-height: 400px;
+}
+
+.img7 {
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F1999%2F10%2Ffight-club-2000.jpg&q=60);
+    min-height: 400px;
+}
+
+.img8 {
+    background-image: url(https://epipoca.com.br/wp-content/uploads/2022/01/1468437163663.jpg);
+    min-height: 400px;
+}
+
+.img9 {
+    background-image: url(https://i.pinimg.com/originals/8c/b0/6d/8cb06dec35929b10a354b979c2023cd5.jpg);
+    min-height: 400px;
+}
+
+.img10 {
+    background-image: url(https://images5.alphacoders.com/596/thumb-1920-596638.jpg);
+    min-height: 400px;
+}
+
+.img11 {
+    background-image: url(https://wallpaperaccess.com/full/3590102.jpg);
+    min-height: 100%;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11 {
+    position: relative;
+    opacity: .8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.footer, #left, #right {
+    display:inline;
+    background-color: rgba(40, 46, 52);
+    color: rgba(255, 255, 255);
+    font-size: clamp(.85rem, 1vw, 3.5rem);
+}
+
+.section-light {
+    background-color: rgba(40, 46, 52);
+    color: rgba(255, 255, 255);
+}
+
+.section {
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: clamp(1rem, 1.6vw, 5rem);
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 55%;
+    height: 0;
+}
+
+.iframe-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0,);
+    font-size: clamp(1rem, 1.8vw, 6rem);
+    letter-spacing: 6px;
+}
+
+.text .border {
+    background-color: rgba(0, 0, 0);
+    color: rgba(255, 255, 255);
+    padding: 20px 20px 20px 20px;
+}
+
+.text .border.trans {
+    background-color: transparent;
+}
+
+div {
+    display: block;
+}
+
+body, html {
+    margin: 0 auto;
+    height: 100%;
+    font-family: 'Fakt Pro', sans-serif;
+    font-size: clamp(.9rem, 1.3vw, 4rem);
+    font-weight: 400;
+    line-height: 1.8em;
+    color: rgba(236, 29, 36);
+}
+
+#right{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+#left{
+    float: left;
+    width: 50%;
+    text-align: center;   
+}
